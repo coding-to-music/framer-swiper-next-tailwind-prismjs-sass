@@ -28,7 +28,7 @@ export default function Home({ articles }) {
       title='Blogger-Name | Software Engineer'
       description='I am a Software Engineer, Blogger and DevOps Enthusiast based in Harare, Zimbabwe.'
       url='https://josemukorivo.com'
-      keywords='Joseph, Mukorivo,Joseph Mukoriwo, Mukoriwo, software engineer,Blogger, Zimbabwe, Harare software developer, zimbabwe developer blog, software development blog, DevOps blog, Cloud Computing blog, React Developer, React Blog'
+      keywords='Blogger-Name, Mukorivo,Blogger-Name Mukoriwo, Mukoriwo, software engineer,Blogger, Zimbabwe, Harare software developer, zimbabwe developer blog, software development blog, DevOps blog, Cloud Computing blog, React Developer, React Blog'
       image='https://josemukorivo.com/images/banner.jpg'
       canonicalURL='https://josemukorivo.com'
     >

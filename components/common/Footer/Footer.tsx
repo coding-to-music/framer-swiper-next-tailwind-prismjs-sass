@@ -80,7 +80,7 @@ export const Footer = () => {
               href='/#about'
               className='mb-4 block text-sm font-heading uppercase tracking-widest hover:text-rose-500 dark:hover:text-rose-500'
             >
-              {'<About Joseph/>'}
+              {'<About Blogger-Name/>'}
             </Link>
           </motion.span>
         </Box>

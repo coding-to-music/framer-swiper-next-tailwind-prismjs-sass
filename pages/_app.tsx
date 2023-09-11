@@ -1,11 +1,12 @@
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import NProgress from 'nprogress';
-import '@styles/globals.css';
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import NProgress from "nprogress";
+import "@styles/globals.css";
 
-import * as gtag from '../lib/gtag';
-import { Accessibility, Layout } from '@components/common';
-import Head from 'next/head';
+import * as gtag from "../lib/gtag";
+import { Accessibility, Layout } from "@components/common";
+import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -17,13 +18,13 @@ function MyApp({ Component, pageProps }) {
       NProgress.done();
     };
 
-    router.events.on('routeChangeStart', () => NProgress.start());
-    router.events.on('routeChangeComplete', handleRouteChange);
-    router.events.on('routeChangeError', () => NProgress.done());
+    router.events.on("routeChangeStart", () => NProgress.start());
+    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on("routeChangeError", () => NProgress.done());
     return () => {
-      router.events.off('routeChangeStart', handleRouteChange);
-      router.events.off('routeChangeComplete', null);
-      router.events.off('routeChangeError', null);
+      router.events.off("routeChangeStart", handleRouteChange);
+      router.events.off("routeChangeComplete", null);
+      router.events.off("routeChangeError", null);
     };
   }, [router.events]);
 
@@ -31,11 +32,12 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head>
         <meta
-          name='viewport'
-          content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover'
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
         />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
       <Accessibility />
     </Layout>
   );

@@ -17,7 +17,7 @@ export const Hero = () => {
               transition={{ duration: 0.8 }}
               whileInView={{ y: 0, opacity: 1 }}
             >
-              Hi 👋🏼, I’m Joseph. <br /> Writer, Software Engineer, DevOps
+              Hi 👋🏼, I’m Blogger-Name. <br /> Writer, Software Engineer, DevOps
               Enthusiast.
             </motion.span>
           </Text>

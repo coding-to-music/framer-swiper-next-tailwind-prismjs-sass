@@ -25,7 +25,13 @@ nvm use 18
 
 ## Environment variables:
 
+see `.env.example`
+
 ```java
+NEXT_PUBLIC_MAILCHIMP_USER=<u field>
+NEXT_PUBLIC_MAILCHIMP_ID=<id field>
+NEXT_PUBLIC_GA_TRACKING_ID=<google analytics gtag id>
+NEXT_PUBLIC_DEV_TO_USERNAME=<dev.to username>
 ```
 
 ## GitHub
@@ -42,9 +48,7 @@ git push -u origin main
 
 ## josemukorivo.com
 
-
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/josemukorivo/josemukorivo.com)
-
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -75,4 +79,3 @@ $ yarn dev
 ## Cloning / Forking
 
 Please review the [license](https://github.com/josemukorivo/josemukorivo.com/blob/main/LICENCE) first.
-

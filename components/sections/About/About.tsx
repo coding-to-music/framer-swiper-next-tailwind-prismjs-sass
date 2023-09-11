@@ -17,7 +17,7 @@ export const About = () => {
           </motion.span>
         </Text>
         <Text className='gap-5 md:columns-2 2xl:gap-10'>
-          Hello, I&lsquo;m Joseph, a Software Engineer from Harare, Zimbabwe 🇿🇼
+          Hello, I&lsquo;m Blogger-Name, a Software Engineer from Harare, Zimbabwe 🇿🇼
           and <span className='font-medium'>Founder & CTO</span> of{' '}
           <Link
             className='font-medium text-rose-500 dark:text-rose-500'
@@ -84,7 +84,7 @@ export const About = () => {
         <Image
           src='/images/me.jpeg'
           layout='fill'
-          alt='Joseph'
+          alt='Blogger-Name'
           quality={100}
           objectFit='cover'
         />
