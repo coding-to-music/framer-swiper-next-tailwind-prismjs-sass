@@ -1,3 +1,45 @@
+# framer-swiper-next-tailwind-prismjs-sass
+
+# 🚀 Personal website with framer-motion, swiper, nextjs, tailwind, prismjs, sass, mailchimp-subscribe, next-sitemap and react-calendly 🚀
+
+https://github.com/coding-to-music/framer-swiper-next-tailwind-prismjs-sass
+
+https://framer-swiper-next-tailwind-prismjs-sass.vercel.app
+
+From / By https://github.com/josemukorivo/josemukorivo.com
+
+https://josemukorivo.com/
+
+https://josemukorivo.com/blog/how-i-developed-my-modern-open-source-portfolio-2o92
+
+<!-- <div style="text-align:center;">
+  <img src="/images/chakra.jpg" alt="Image" />
+  <p><em>Chakra Component Library with Next.js</em></p>
+</div> -->
+
+## Node Environment:
+
+```java
+nvm use 18
+```
+
+## Environment variables:
+
+```java
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/framer-swiper-next-tailwind-prismjs-sass.git
+git push -u origin main
+```
+
 ## josemukorivo.com
 
 
