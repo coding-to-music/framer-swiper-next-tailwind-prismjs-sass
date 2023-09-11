@@ -4,7 +4,7 @@ import { Nav, Page } from '@components/common';
 export default function Home({ articles }) {
   return (
     <Page
-      title='Joseph Mukorivo | Blog'
+      title='Blogger-Name | Blog'
       description="Joseph's thoughts on Software Development, DevOps, Cloud Computing and Tech in general."
       url='https://josemukorivo.com/blog'
       keywords='Joseph, Mukorivo, Mukoriwo, software engineer,Blogger, Zimbabwe, Harare software developer, zimbabwe developer blog, software development blog, DevOps blog, Cloud Computing blog, React Developer, React Blog'

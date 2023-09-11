@@ -11,7 +11,7 @@ export const Copyright = () => (
         href='https://josemukorivo.com'
         className='font-medium text-rose-500 hover:text-rose-600 dark:text-rose-500'
       >
-        Joseph Mukorivo
+        Blogger-Name
       </Link>
       .
     </Text>

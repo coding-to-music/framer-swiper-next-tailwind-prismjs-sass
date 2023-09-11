@@ -25,7 +25,7 @@ export default function Home({ articles }) {
 
   return (
     <Page
-      title='Joseph Mukorivo | Software Engineer'
+      title='Blogger-Name | Software Engineer'
       description='I am a Software Engineer, Blogger and DevOps Enthusiast based in Harare, Zimbabwe.'
       url='https://josemukorivo.com'
       keywords='Joseph, Mukorivo,Joseph Mukoriwo, Mukoriwo, software engineer,Blogger, Zimbabwe, Harare software developer, zimbabwe developer blog, software development blog, DevOps blog, Cloud Computing blog, React Developer, React Blog'

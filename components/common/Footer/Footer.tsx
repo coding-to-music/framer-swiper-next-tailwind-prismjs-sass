@@ -22,7 +22,7 @@ export const Footer = () => {
               transition={{ duration: 0.6 }}
               whileInView={{ opacity: 1 }}
             >
-              Joseph Mukorivo
+              Blogger-Name
             </motion.span>
           </Text>
           <Text className='mb-6'>
