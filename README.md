@@ -6,6 +6,10 @@ https://github.com/coding-to-music/framer-swiper-next-tailwind-prismjs-sass
 
 https://framer-swiper-next-tailwind-prismjs-sass.vercel.app
 
+Gets https://dev.to articles and puts them into the blog section of the website
+
+https://framer-swiper-next-tailwind-prismjs-sass.vercel.app/blog
+
 From / By https://github.com/josemukorivo/josemukorivo.com
 
 https://josemukorivo.com/
